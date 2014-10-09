@@ -1,0 +1,26 @@
+package com.ncom.videoplayer;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.ViewGroup;
+
+public class MainActivity extends Activity {
+	
+	final private String videoUri = "rtsp://smarthouse.ncom-ufa.ru";
+	private Player camPlayer = null;
+	private ViewGroup vg;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        
+        vg = (ViewGroup) this.findViewById(R.id.page_fragment);
+        camPlayer = new Player(vg, this);
+        
+        camPlayer.Play(videoUri + "/cam" + cam);
+ 
+    }
+}

@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="vitamio:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/vitamio</output-path>
+    <root id="archive" name="vitamio.jar">
+      <element id="module-output" name="vitamio" />
+      <element id="android-final-package" facet="vitamio/android/Android" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/vitamio/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

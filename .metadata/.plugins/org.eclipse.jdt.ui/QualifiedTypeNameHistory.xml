@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.media.MediaPlayer.OnBufferingUpdateListener"/>
+<fullyQualifiedTypeName name="android.media.MediaPlayer.OnCompletionListener"/>
+<fullyQualifiedTypeName name="android.media.MediaPlayer.OnPreparedListener"/>
+<fullyQualifiedTypeName name="android.media.MediaPlayer.OnVideoSizeChangedListener"/>
+<fullyQualifiedTypeName name="android.view.ViewGroup"/>
+</qualifiedTypeNameHistroy>
